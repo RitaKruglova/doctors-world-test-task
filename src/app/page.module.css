@@ -1,6 +1,7 @@
 .page {
   width: 100%;
   max-width: 1920px;
+  background: linear-gradient(to bottom, #FFFFFF 0%, #D8EFFF 100%);
 }
 
 .header {
@@ -11,7 +12,21 @@
 
 .a {
   position: absolute;
-  left: 610px;
+  left: 610.5px;
   top: -17px;
   z-index: 1;
+}
+
+.b {
+  position: absolute;
+  left: 534.5px;
+  top: 0;
+  z-index: 2;
+}
+
+.c {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 3;
 }
