@@ -3,6 +3,7 @@ import therapyStyles from './therapy.module.css';
 import Title from '../title/title';
 import Medicine from '../medicine/medicine';
 import Medicines from '../medicines/medicines';
+import Arrows from '../arrows/arrows';
 
 const Therapy: FC = () => {
   return (
@@ -13,6 +14,7 @@ const Therapy: FC = () => {
       </div>
       <h5 className={therapyStyles.caption} >Приоритетные направления фармакотерапевтической стратегии при ХОБЛ<sup>1</sup>:</h5>
       <Medicines />
+      <Arrows />
     </section>
   )
 }
