@@ -4,12 +4,16 @@
   border-radius: 20px;
   height: 195px;
   width: 1290px;
-  box-shadow: 0px 25px 50px rgba(174, 174, 192, 0.35);
+  box-shadow: 0px 0px 25px rgba(174, 174, 192, 0.35);
   position: relative;
   display: grid;
   grid-template-columns: 80px 295px 1fr;
   column-gap: 29px;
   box-sizing: border-box;
+}
+
+.container:first-of-type {
+  margin-bottom: 40px;
 }
 
 .button {

@@ -22,7 +22,7 @@ const Myth: FC<IMythProps> = ({ buttonColor, svgIconPath, title, boldPart, text 
           {title.split(boldPart)[1]}
         </h3>
       </div>
-      <p className={mythStyles.text} >{text.substring(0, 152) + "…"}</p>
+      <p className={mythStyles.text} >{buttonColor === 'blue' ? text.substring(0, 152) + '…' : text.substring(0, 128) + '…'}</p>
     </li>
   )
 }
