@@ -1,12 +1,12 @@
 import { FC } from 'react';
 import mythsStyles from './myths.module.css';
 import Myth from '../myth/myth';
+import Title from '../title/title';
 
 const Myths: FC = () => {
   return (
     <section className={mythsStyles.container} >
-      <img className={mythsStyles.image} src="/images/myths-image-1.svg" alt="Вектор" />
-      <h1 className={mythsStyles.title} >ХОБЛ: мифы и реальность</h1>
+      <Title text="ХОБЛ: мифы и реальность" isMythsPlace={true} />
       <ul className={mythsStyles.list} >
         <Myth
           buttonColor="blue"
