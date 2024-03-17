@@ -16,6 +16,10 @@
   margin-bottom: 40px;
 }
 
+.high {
+  height: 214px;
+}
+
 .button {
   width: 48.26px;
   height: 48.26px;
@@ -46,7 +50,7 @@
 
 .circuit {
   position: absolute;
-  top: 2px;
+  top: -2px;
   left: 0;
   z-index: 2;
 }

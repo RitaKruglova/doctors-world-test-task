@@ -11,7 +11,7 @@ interface IMythProps {
 
 const Myth: FC<IMythProps> = ({ buttonColor, svgIconPath, title, boldPart, text }) => {
   return (
-    <li className={mythStyles.container} >
+    <li className={`${mythStyles.container} ${buttonColor === 'green' ? mythStyles.high : ''}`} >
       <button type="button" className={`${mythStyles.button} ${buttonColor === 'blue' ? mythStyles.blue : mythStyles.green}`} />
       <img className={mythStyles.image} src={svgIconPath} alt="Иконка" />
       <div className={mythStyles.background} >
