@@ -1,7 +1,25 @@
 .container {
   position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+}
+
+.image {
+  align-self: start;
 }
 
 .title {
-  color: #01457A;
+  font-size: 40px;
+  font-weight: bold;
+  position: absolute;
+  top: 18px;
+  left: 45px;
+  margin: 0;
+}
+
+.list {
+  margin-top: 38px;
+  padding: 10px 0;
 }

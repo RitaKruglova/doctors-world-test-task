@@ -1,6 +1,79 @@
 .container {
   padding: 40px 52px 40px 38px;
   border: 1px solid #01457A;
-  border-radius: 15px;
-  height: 200px;
+  border-radius: 20px;
+  height: 195px;
+  width: 1290px;
+  box-shadow: 0px 25px 50px rgba(174, 174, 192, 0.35);
+  position: relative;
+  display: grid;
+  grid-template-columns: 80px 295px 1fr;
+  column-gap: 29px;
+  box-sizing: border-box;
+}
+
+.button {
+  width: 48.26px;
+  height: 48.26px;
+  position: absolute;
+  top: -24.13px;
+  right: -24.13px;
+  border: none;
+  background-color: transparent;
+}
+
+.blue {
+  background-image: url('/images/myth-button-blue.svg');
+}
+
+.green {
+  background-image: url('/images/myth-button-green.svg');
+}
+
+.image {
+  padding-right: 29px;
+}
+
+.background {
+  background-image: url('/images/myth-image-1.svg');
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.circuit {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  z-index: 2;
+}
+
+.title {
+  font-family: 'Noto Sans', 'Arial', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  width: 248px;
+  position: absolute;
+  top: 6px;
+  left: 0;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.text {
+  font-family: 'Noto Sans', 'Arial', sans-serif;
+  width: 767px;
+  height: 99px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 35px;
+  letter-spacing: 1px;
+  background: linear-gradient(to bottom, #01457A 60%, white 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #0B2349;
+  display: table;
 }
