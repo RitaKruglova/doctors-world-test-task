@@ -9,7 +9,10 @@ const Therapy: FC = () => {
       <div className={therapyStyles.background} >
         <h4 className={therapyStyles.subtitle} >Даже 1 среднетяжелое обострение — сигнал к увеличению объема терапии</h4>
       </div>
-      <h5 className={therapyStyles.caption} >Приоритетные направления фармакотерапевтической стратегии при ХОБЛ1:</h5>
+      <h5 className={therapyStyles.caption} >Приоритетные направления фармакотерапевтической стратегии при ХОБЛ<sup>1</sup>:</h5>
+      <ul className={therapyStyles.medicines} >
+        
+      </ul>
     </section>
   )
 }
