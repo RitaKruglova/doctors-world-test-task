@@ -34,3 +34,42 @@
   letter-spacing: 1px;
   width: 375px;
 }
+
+@media screen and (max-width: 1780px) {
+  .container {
+    height: fit-content;
+    min-height: 661px;
+  }
+
+  .title {
+    font-size: 24px;
+  }
+
+  .text {
+    width: 300px;
+    font-size: 22px;
+    line-height: 27px;
+  }
+}
+
+@media screen and (max-width: 1485px) {
+  .text {
+    width: 250px;
+  }
+}
+
+@media screen and (max-width: 1175px) {
+  .container {
+    min-height: none;
+  }
+  
+  .title {
+    font-size: 20px;
+  }
+
+  .text {
+    font-size: 18px;
+  }
+}
+
+

@@ -3,8 +3,8 @@ import arrowStyles from './arrow.module.css';
 
 const Arrow: FC = () => {
   return (
-    <li>
-      <img src="/images/arrow-image.svg" alt="Стрелка" />
+    <li className={arrowStyles.container} >
+      <img className={arrowStyles.arrow} src="/images/arrow-image.svg" alt="Стрелка" />
     </li>
   )
 }

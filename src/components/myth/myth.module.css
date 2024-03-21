@@ -3,7 +3,8 @@
   border: 1px solid #01457A;
   border-radius: 20px;
   height: 195px;
-  width: 1290px;
+  width: 68vw;
+  max-width: 1290px;
   box-shadow: 0px 0px 25px rgba(174, 174, 192, 0.35);
   position: relative;
   display: grid;
@@ -72,7 +73,8 @@
 
 .text {
   font-family: 'Noto Sans', 'Arial', sans-serif;
-  width: 767px;
+  max-width: 767px;
+  width: 40vw;
   height: 99px;
   font-size: 24px;
   font-weight: 400;
@@ -85,3 +87,38 @@
   color: #0B2349;
   display: table;
 }
+
+@media screen and (max-width: 1690px) {
+  .text {
+    width: 33vw;
+    font-size: 20px;
+    letter-spacing: 0;
+  }
+}
+
+@media screen and (max-width: 1342px) {
+  .container {
+    grid-template-columns: 80px 1fr;
+    grid-template-rows: 115px 1fr;
+    grid-template-areas: 
+    'image background'
+    'text text';
+    height: fit-content;
+    row-gap: 29px;
+  }
+
+  .image {
+    grid-area: image;
+  }
+
+  .background {
+    grid-area: background;
+  }
+
+  .text {
+    grid-area: text;
+    width: 100%;
+  }
+}
+
+

@@ -4,5 +4,12 @@
   column-gap: 30px;
   list-style: none;
   margin-top: 22px;
-  width: 1290px;
+  width: 68vw;
+  max-width: 1290px;
+}
+
+@media screen and (max-width: 1340px) {
+  .container {
+    width: 85vw;
+  }
 }

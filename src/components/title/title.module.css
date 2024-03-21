@@ -1,5 +1,7 @@
 .image {
   align-self: start;
+  width: 70vw;
+  max-width: 1335px;
 }
 
 .title {
@@ -10,3 +12,14 @@
   left: 45px;
   margin: 0;
 }
+
+@media screen and (max-width: 1320px) {
+  .title {
+    font-size: 25px;
+  }
+
+  .image {
+    width: 85vw;
+  }
+}
+

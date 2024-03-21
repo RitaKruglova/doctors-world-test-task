@@ -1,0 +1,9 @@
+@media screen and (max-width: 1150px) {
+  .container {
+    display: flex;
+    justify-content: center;
+  }
+  .arrow {
+    width: 375px;
+  }
+}
