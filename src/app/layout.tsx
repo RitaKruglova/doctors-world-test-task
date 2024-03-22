@@ -1,4 +1,6 @@
-import type { Metadata } from 'next'
+import type { Metadata } from 'next';
+import pageStyles from './page.module.css';
+import './globals.css';
 
 export const metadata: Metadata = {
   title: "Doctor's world",
@@ -20,7 +22,11 @@ export default function RootLayout({
         <meta name="keywords" content="ХОБЛ, ингаляционный, заболевания, болезнь" />
         <meta name="author" content="Маргарита Круглова" />
       </head>
-      <body>{children}</body>
+      <body>
+        <div className={pageStyles.page} >
+          {children}
+        </div>
+      </body>
     </html>
   )
 }
