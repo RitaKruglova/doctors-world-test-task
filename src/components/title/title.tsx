@@ -10,7 +10,12 @@ const Title: FC<ITitleProps> = ({ text, isMythsPlace }) => {
   return (
     <>
       <img className={titleStyles.image} src="/images/title-image-1.svg" alt="Вектор" />
-      <h2 className={titleStyles.title} >{text}</h2>
+      {isMythsPlace
+        ?
+          <h1 className={titleStyles.title} >{text}</h1>
+        :
+          <h2 className={titleStyles.title} >{text}</h2>
+      }
     </>
   )
 }
