@@ -21,12 +21,17 @@
   height: 214px;
 }
 
-.button {
+.link {
   width: 48.26px;
   height: 48.26px;
   position: absolute;
   top: -24.13px;
   right: -24.13px;
+}
+
+.button {
+  width: 48.26px;
+  height: 48.26px;
   border: none;
   background-color: transparent;
 }

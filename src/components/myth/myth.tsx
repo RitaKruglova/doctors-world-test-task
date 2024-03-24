@@ -1,5 +1,6 @@
 import { FC } from 'react';
 import mythStyles from './myth.module.css';
+import Link from 'next/link';
 
 interface IMythProps {
   buttonColor: string;
@@ -12,7 +13,9 @@ interface IMythProps {
 const Myth: FC<IMythProps> = ({ buttonColor, svgIconPath, title, boldPart, text }) => {
   return (
     <li className={`${mythStyles.container} ${buttonColor === 'green' ? mythStyles.high : ''}`} >
-      <button type="button" className={`${mythStyles.button} ${buttonColor === 'blue' ? mythStyles.blue : mythStyles.green}`} />
+      <Link className={mythStyles.link} href={`${buttonColor === 'blue' ? '/diagram' : '/survival'}`} >
+        <button type="button" className={`${mythStyles.button} ${buttonColor === 'blue' ? mythStyles.blue : mythStyles.green}`} />
+      </Link>
       <img className={mythStyles.image} src={svgIconPath} alt="Иконка" />
       <div className={mythStyles.background} >
         <img className={mythStyles.circuit} src="/images/myth-image-2.svg" alt="Вектор" />
