@@ -1,6 +1,10 @@
 .container {
+  display: -ms-grid;
   display: grid;
+  -ms-grid-columns: 425px 30px 425px;
   grid-template-columns: repeat(2, 425px);
+  -webkit-column-gap: 30px;
+  -moz-column-gap: 30px;
   column-gap: 30px;
   margin-top: 3px;
   list-style: none;

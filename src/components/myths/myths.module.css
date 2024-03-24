@@ -1,12 +1,21 @@
 .container {
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   background-color: white;
 }
 
 .image {
+  -ms-flex-item-align: start;
+  -ms-grid-row-align: start;
   align-self: start;
 }
 
@@ -23,4 +32,3 @@
   margin-top: 38px;
   padding: 10px 0;
 }
-

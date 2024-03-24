@@ -1,4 +1,6 @@
 .image {
+  -ms-flex-item-align: start;
+  -ms-grid-row-align: start;
   align-self: start;
   width: 70vw;
   max-width: 1335px;
@@ -22,4 +24,3 @@
     width: 85vw;
   }
 }
-
