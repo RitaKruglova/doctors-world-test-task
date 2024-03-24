@@ -53,3 +53,13 @@
   max-width: 1209px;
   margin: 40px 0;
 }
+
+@media screen and (max-width: 1500px) {
+  .container {
+    width: 92vw;
+  }
+
+  .list {
+    width: 82vw;
+  }
+}
