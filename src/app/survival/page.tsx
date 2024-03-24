@@ -13,14 +13,14 @@ const Survival: FC = () => {
           imagePath="/images/survival-image-1.svg"
           title="45,5%"
           subtitle="пациентов с сердечной недостаточностью1"
-          boldPart="сердечной недостаточностью1"
+          boldPart="сердечной недостаточностью"
           text="Популяционное когортное исследование (N=385)"
         />
         <Card
           imagePath="/images/survival-image-2.svg"
           title="55,3%"
           subtitle="пациентов с инфарктом миокарда1"
-          boldPart="инфарктом миокарда1"
+          boldPart="инфарктом миокарда"
           text="Апостериорный анализ когортного исследования (N=2887)"
         />
         <Card

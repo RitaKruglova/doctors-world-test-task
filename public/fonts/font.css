@@ -33,3 +33,12 @@
   src: url('/fonts/Noto-Sans-Bold.woff2') format('woff2'),
        url('/fonts/Noto-Sans-Bold.woff') format('woff');
 }
+
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url('/fonts/Noto-Sans-Light.woff2') format('woff2'),
+       url('/fonts/Noto-Sans-Light.woff') format('woff');
+}
